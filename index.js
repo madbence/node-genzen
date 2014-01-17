@@ -26,6 +26,11 @@ module.exports = function genzen(gen, zen) {
     })) {
       //TODO parallel execution.
     }
+    if(value && typeof value.then === 'function') {
+      return value.then(function(val) {
+        cont(null, val);
+      }, cont);
+    }
   };
   var mind = gen(cont);
   mind.next();
