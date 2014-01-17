@@ -41,3 +41,7 @@ g(function* (zen) {
   console.log('Done!');
 });
 ```
+
+## Author
+
+[@madbence](https://twitter.com/madbence) on Twitter
