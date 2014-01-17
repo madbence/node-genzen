@@ -1,0 +1,25 @@
+{
+  "name": "genzen",
+  "version": "0.0.1",
+  "description": "Zen for Generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "keywords": [
+    "generator",
+    "async",
+    "thunk",
+    "continuable",
+    "promise",
+    "callback",
+    "flow",
+    "coroutine"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:madbence/node-genzen.git"
+  },
+  "author": "Bence Dányi <madbence@gmail.com>",
+  "license": "MIT"
+}
