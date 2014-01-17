@@ -2,8 +2,8 @@ function noop() {}
 
 module.exports = function genzen(gen, zen) {
   zen = zen || noop;
-  let cont = function cont(err, res) {
-    let next, throwed;
+  var cont = function cont(err, res) {
+    var next, throwed;
     try {
       if(err) {
         next = mind.throw(err);
