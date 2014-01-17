@@ -102,3 +102,7 @@ genzen(function* (zen) {
 ## Author
 
 [@madbence](https://twitter.com/madbence) on Twitter
+
+## License
+
+MIT
