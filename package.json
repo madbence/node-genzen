@@ -1,6 +1,6 @@
 {
   "name": "genzen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zen for Generators",
   "main": "index.js",
   "scripts": {

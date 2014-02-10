@@ -33,5 +33,5 @@ module.exports = function genzen(gen, zen) {
     }
   };
   var mind = gen(cont);
-  mind.next();
+  cont();
 };
